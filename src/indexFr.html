@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="fr" class="sr">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <title>Luis NIETO | Developpeur</title>
+
+    <meta name="keywords" content="[username], [name], skill" />
+
+    <meta name="description" content="Luis NIETO | Developer" />
+
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+            defer
+            src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+<body>
+<a rel="noreferrer" class="cta-btn cta-btn--hero" href="index.html"
+>En</a
+>
+<div id="top"></div>
+
+<!-- **** Hero Section **** -->
+<section id="hero" class="jumbotron">
+    <div class="container">
+        <h1 class="hero-title load-hidden" lang="fr">
+            Bonjour, Mon nom est <span class="text-color-main">Luis NIETO</span>
+            <br />
+            Je suis un developpeur de jeux video.
+        </h1>
+        <p class="hero-cta load-hidden">
+            <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Savoir plus</a
+            >
+        </p>
+    </div>
+</section>
+<!-- /END Hero Section -->
+
+<!-- **** About Section **** -->
+<section id="about">
+    <div class="container">
+        <h2 class="section-title load-hidden">Description</h2>
+        <div class="row about-wrapper">
+            <div class="col-md-6 col-sm-12">
+                <div class="about-wrapper__image load-hidden">
+                    <img
+                            alt="Profile Image"
+                            class="img-fluid rounded shadow-lg"
+                            height="auto"
+                            width="300px"
+                            src="assets/profile.jpg"
+                            alt="Profile Image"
+                    />
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="about-wrapper__info load-hidden">
+                    <p class="about-wrapper__info-text">
+                       Je suis un jeune developpeur! J'aime coder des jeux et experimenter sur Unity,
+                        J'aime aussi apprendre de nouvelles technologies et partager mes connaissances avec les autres.
+                    </p>
+                    <p class="about-wrapper__info-text">
+                        Je veux faire parti d'une entreprise pour m'ameliorer et pouvoir realiser de plus gros projets en équipe!
+                    </p>
+                    <span class="d-flex mt-3">
+                <a
+                        rel="noreferrer"
+                        target="_blank"
+                        class="cta-btn cta-btn--resume"
+                        href="https://github.com/Lnieto-101/website/blob/main/src/assets/resume.pdf"
+                >
+                  Voir CV
+                </a>
+                <a rel="noreferrer" class="cta-btn cta-btn--resume" href="#projects"
+                >Projets</a
+                >
+              </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /END About Section -->
+
+<!-- **** Projects Section **** -->
+<section id="projects">
+    <div class="container">
+        <div class="project-wrapper">
+            <h2 class="section-title dark-blue-text">Projets</h2>
+
+            <!-- start project red hood platformer -->
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="project-wrapper__text load-hidden">
+                        <h3 class="project-wrapper__text-title">Red Hood Platformer</h3>
+                        <div>
+                            <p class="mb-4">
+                                Voici un platformer avec des controles amusant comme le dash ou le double sauts, vous devez tuer
+                                les monstres qui sont sur votre chemin afin d'obtenir des informations sur le monde dans lequel vous etes.
+                                Ce jeu m'a pris 2 semaines de travail en <span class="text-color-main" >solo</span>, j'ai fais le jeu de zéro
+                                sur <span class="text-color-main" >Unity</span>. Ce projet est mon premier projet avec une histoire!
+                            </p>
+                        </div>
+                        <!--  <a
+                           rel="noreferrer"
+                           target="_blank"
+                           class="cta-btn cta-btn--hero"
+                           href="#!"
+                         >
+                           See Live
+                         </a>
+                         <a
+                           rel="noreferrer"
+                           target="_blank"
+                           class="cta-btn text-color-main"
+                           href="#!"
+                         >
+                           Source Code
+                         </a>-->
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <div class="project-wrapper__image load-hidden">
+                        <div
+                                data-tilt
+                                data-tilt-max="4"
+                                data-tilt-glare="true"
+                                data-tilt-max-glare="0.5"
+                                class="thumbnail rounded js-tilt"
+                        >
+                            <!--  <img
+                                alt="Project Image"
+                                class="img-fluid"
+                                src="assets/project.jpg"
+                              />-->
+                            <video alt="Project video" controls class="img-fluid"><source src="assets/RedHood.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /END Project -->
+
+
+            <!-- start project king game -->
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="project-wrapper__text load-hidden">
+                        <h3 class="project-wrapper__text-title">King's Game</h3>
+                        <div>
+                            <p class="mb-4">
+                                Voici un jeu multijoueur vu de dessus en 2D réalisé avec <span class="text-color-main" >Mirror Networking</span> sur
+                                <span class="text-color-main" >Unity</span>. Ce prototype m'a pris 2 jour de travail, il y a 4 pieces,
+                                chaque piece n'est accessible que par 1 joueur, les joueurs peuvent aussi se battre entre eux et combattre les monstres.
+                            </p>
+                        </div>
+                        <!--  <a
+                           rel="noreferrer"
+                           target="_blank"
+                           class="cta-btn cta-btn--hero"
+                           href="#!"
+                         >
+                           See Live
+                         </a>
+                         <a
+                           rel="noreferrer"
+                           target="_blank"
+                           class="cta-btn text-color-main"
+                           href="#!"
+                         >
+                           Source Code
+                         </a>-->
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <div class="project-wrapper__image load-hidden">
+                        <div
+                                data-tilt
+                                data-tilt-max="4"
+                                data-tilt-glare="true"
+                                data-tilt-max-glare="0.5"
+                                class="thumbnail rounded js-tilt"
+                        >
+                            <!--  <img
+                                alt="Project Image"
+                                class="img-fluid"
+                                src="assets/project.jpg"
+                              />-->
+                            <video alt="Project video" controls class="img-fluid"><source src="assets/KingGame.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /END Project -->
+
+
+            <!-- start project StackShape -->
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="project-wrapper__text load-hidden">
+                        <h3 class="project-wrapper__text-title">Stack Shape</h3>
+                        <div>
+                            <p class="mb-4">
+                                Mon dernier jeu publier, un jeu basé sur la <span class="text-color-main" >physique</span> ou vous devez faire tenir en équilibre
+                                plusieurs formes differentes afin d'acceder au niveau suivant! J'ai fais ce jeu avec ma copine,
+                                elle a réalisé les graphismes, et je me suis concentré sur la <span class="text-color-main" >programmation</span>.
+                                Jeu réalisé sur <span class="text-color-main" >Unity</span> en <span class="text-color-main" >C#</span> nous avons eu de bon retour sur Google play!
+                            </p>
+                        </div>
+                        <a
+                                rel="noreferrer"
+                                target="_blank"
+                                class="cta-btn cta-btn--hero"
+                                href="https://play.google.com/store/apps/details?id=com.Wyyne.PerfectStackShape&gl=FR"
+                        >
+                            Google Play
+                        </a>
+                        <a
+                                rel="noreferrer"
+                                target="_blank"
+                                class="cta-btn cta-btn--hero"
+                                href="https://github.com/Lnieto-101/StackShape"
+                        >
+                            Github
+                        </a><!--
+                 <a
+                   rel="noreferrer"
+                   target="_blank"
+                   class="cta-btn text-color-main"
+                   href="#!"
+                 >
+                   Source Code
+                 </a>-->
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <div class="project-wrapper__image load-hidden">
+                        <div
+                                data-tilt
+                                data-tilt-max="4"
+                                data-tilt-glare="true"
+                                data-tilt-max-glare="0.5"
+                                class=" rounded js-tilt"
+                        >
+                            <!--  <img
+                                alt="Project Image"
+                                class="img-fluid"
+                                src="assets/project.jpg"
+                              />-->
+                            <video alt="Project video" controls width="40%"><source src="assets/StackShape.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /END Project -->
+
+            <!-- start project water shader -->
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="project-wrapper__text load-hidden">
+                        <h3 class="project-wrapper__text-title">Water Shader</h3>
+                        <div>
+                            <p class="mb-4">
+                                Mon objectif etait de faire un <span class="text-color-main" >shader</span> de réflexion pour l'eau,
+                                une petite experience amusante pour apprendre les bases du <span class="text-color-main" >shader graph</span>
+                                de <span class="text-color-main" >Unity</span>.
+                            </p>
+                        </div>
+                        <!--  <a
+                           rel="noreferrer"
+                           target="_blank"
+                           class="cta-btn cta-btn--hero"
+                           href="#!"
+                         >
+                           See Live
+                         </a>
+                         <a
+                           rel="noreferrer"
+                           target="_blank"
+                           class="cta-btn text-color-main"
+                           href="#!"
+                         >
+                           Source Code
+                         </a>-->
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <div class="project-wrapper__image load-hidden">
+                        <div
+                                data-tilt
+                                data-tilt-max="4"
+                                data-tilt-glare="true"
+                                data-tilt-max-glare="0.5"
+                                class="thumbnail rounded js-tilt"
+                        >
+                            <!--  <img
+                                alt="Project Image"
+                                class="img-fluid"
+                                src="assets/project.jpg"
+                              />-->
+                            <video alt="Project video" controls class="img-fluid"><source src="assets/ShaderWater.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /END Project -->
+
+
+            <!-- start project Wolf 3d -->
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="project-wrapper__text load-hidden">
+                        <h3 class="project-wrapper__text-title">Wold3D</h3>
+                        <div>
+                            <p class="mb-4">
+                                Ce projet d'ecole consistait a réaliser un <span class="text-color-main" >raycast engine</span> en <span class="text-color-main" >C</span> sans
+                                bibliothèque externe, nous étions 2 sur le projet, j'ai ajouté des teleporteur afin de creer un effet <span class="text-color-main" >non euclidien</span>,
+                                ca a vraiment bien fonctionné. Nous avons obtenu tout les points ainsi que les bonus!
+                            </p>
+                        </div>
+                        <a
+                                rel="noreferrer"
+                                target="_blank"
+                                class="cta-btn cta-btn--hero"
+                                href="https://github.com/Lnieto-101/42-wolf3d"
+                        >
+                            GitHub
+                        </a><!--
+                 <a
+                   rel="noreferrer"
+                   target="_blank"
+                   class="cta-btn text-color-main"
+                   href="#!"
+                 >
+                   Source Code
+                 </a>-->
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <div class="project-wrapper__image load-hidden">
+                        <iframe class="img-fluid" src="https://www.youtube.com/embed/rSMYZOuzdIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /END Project -->
+
+
+        <!-- start project Tank -->
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <div class="project-wrapper__text load-hidden">
+                    <h3 class="project-wrapper__text-title">Mini Tank</h3>
+                    <div>
+                        <p class="mb-4">
+                            Mon premier <span class="text-color-main" >jeu publié</span>! créer avec <span class="text-color-main" >Unity</span>, j'ai fais les graphismes et le code,
+                            le jeu est toujours disponible sur google play, mon aventure en tant que <span class="text-color-main" >game dev</span> a commencé avec ce jeu!
+                        </p>
+                    </div>
+                    <a
+                            rel="noreferrer"
+                            target="_blank"
+                            class="cta-btn cta-btn--hero"
+                            href="https://play.google.com/store/apps/details?id=com.LNGames.testTank&gl=FR"
+                    >
+                        Google Play
+                    </a><!--
+               <a
+                 rel="noreferrer"
+                 target="_blank"
+                 class="cta-btn text-color-main"
+                 href="#!"
+               >
+                 Source Code
+               </a>-->
+                </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+                <div class="project-wrapper__image load-hidden">
+                    <div
+                            data-tilt
+                            data-tilt-max="4"
+                            data-tilt-glare="true"
+                            data-tilt-max-glare="0.5"
+                            class="thumbnail rounded js-tilt"
+                    >
+                        <!--  <img
+                            alt="Project Image"
+                            class="img-fluid"
+                            src="assets/project.jpg"
+                          />-->
+                        <video alt="Project video" controls class="img-fluid"><source src="assets/MiniTank.mp4" type="video/mp4"></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /END Project -->
+
+    </div>
+    </div>
+</section>
+<!-- /END Projects Section -->
+
+<!-- **** Contact Section **** -->
+<section id="contact">
+    <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+            <p class="contact-wrapper__text">Envoyez moi un mail si vous souhaitez avoir plus d'informations</p>
+            <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn cta-btn--resume"
+                    href="mailto:pro.luis.nieto@gmail.com"
+            >Mail</a
+            >
+        </div>
+    </div>
+</section>
+<!-- /END Contact Section -->
+
+<!-- **** Footer Section **** -->
+<footer class="footer navbar-static-bottom">
+    <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+            <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+            <a rel="noreferrer" href="https://www.linkedin.com/in/luis-nieto-a44b591b6/" target="_blank">
+                <i class="fa fa-linkedin fa-inverse"></i>
+            </a>
+            <a rel="noreferrer" href="https://github.com/Lnieto-101" target="_blank">
+                <i class="fa fa-github fa-inverse"></i>
+            </a>
+        </div>
+
+        <hr />
+
+        <p class="footer__text">
+            © 2022 - Developed by Luis NIETO
+        </p>
+    </div>
+</footer>
+<!-- /END Footer Section -->
+
+<script defer type="module" src="index.js"></script>
+</body>
+</html>
