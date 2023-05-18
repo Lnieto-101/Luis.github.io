@@ -5,6 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19ba204c-cc38-413a-b665-0755412f6b4f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img/Fiole.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Hammer.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/HorrorScene.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Lys.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Poivron.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Robot.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Room.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Sword.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/anime.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/flower.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/plant.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indexFr.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexFr.html" afterDir="false" />
@@ -57,7 +68,7 @@
       <workItem from="1684268182935" duration="154000" />
       <workItem from="1684268522810" duration="3654000" />
       <workItem from="1684353186258" duration="1449000" />
-      <workItem from="1684355867131" duration="773000" />
+      <workItem from="1684355867131" duration="2509000" />
     </task>
     <servers />
   </component>
