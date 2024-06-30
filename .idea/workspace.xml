@@ -5,18 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19ba204c-cc38-413a-b665-0755412f6b4f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/Fiole.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Hammer.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/HorrorScene.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Lys.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Poivron.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Robot.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Room.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Sword.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anime.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/flower.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/plant.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Coil-e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/LFAP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Leafy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/VFX_SlashAnim.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/VFX_pedro.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/VFX_spawn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/VFX_void.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/about.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/profile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/testimonial-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/testimonial-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/testimonial-3.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indexFr.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexFr.html" afterDir="false" />
     </list>
@@ -69,6 +79,9 @@
       <workItem from="1684268522810" duration="3654000" />
       <workItem from="1684353186258" duration="1449000" />
       <workItem from="1684355867131" duration="2509000" />
+      <workItem from="1684370853375" duration="745000" />
+      <workItem from="1684600490740" duration="51000" />
+      <workItem from="1719767885552" duration="5208000" />
     </task>
     <servers />
   </component>
